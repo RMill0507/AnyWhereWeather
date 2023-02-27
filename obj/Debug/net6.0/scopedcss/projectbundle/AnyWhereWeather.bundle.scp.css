@@ -1,0 +1,49 @@
+/* _content/AnyWhereWeather/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-sh2lkmkcdx] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-sh2lkmkcdx] {
+  color: #0077cc;
+}
+
+.btn-primary[b-sh2lkmkcdx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-sh2lkmkcdx], .nav-pills .show > .nav-link[b-sh2lkmkcdx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-sh2lkmkcdx] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-sh2lkmkcdx] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-sh2lkmkcdx] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-sh2lkmkcdx] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-sh2lkmkcdx] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
