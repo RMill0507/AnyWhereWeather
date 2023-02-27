@@ -7,7 +7,8 @@
         public double MaxTemp { get; set; }
         public double MinTemp { get; set; }
         public double Humidity { get; set; }
-        public string CityName { get; set; }    
+        public string CityName { get; set; }
+        public string Description { get; set; } 
 
 
     }
