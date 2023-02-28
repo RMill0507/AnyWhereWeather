@@ -28,9 +28,16 @@ namespace AnyWhereWeather
             weather.CityName = (string)json["name"];
             weather.Description = (string)json["weather"][0]["description"];
 
+            var stateClient = new RestClient($"https://api.zippopotam.us/us/{zip}");
+            var stateRequest = new RestRequest(Method.GET);
+            IRestResponse stateResponse = stateClient.Execute(stateRequest);
+            var stateJson = JObject.Parse(stateResponse.Content);
+            weather.State = (string)stateJson["places"][0]["state"];
+
             return weather;
 
         }
+
     }
 }
 

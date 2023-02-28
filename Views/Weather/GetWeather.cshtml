@@ -11,9 +11,14 @@
                     <div class="card-body p-4">
 
                         <div class="d-flex">
-                            <h6 class="flex-grow-1">@Model.CityName</h6>
-                            @*<h6>15:07</h6>*@
+                            <h6 class="flex-grow-1 text-large">@Model.CityName, @Model.State</h6>
                         </div>
+
+                        <style>
+                            .text-large {
+                                font-size: 1.7rem;
+                            }
+                        </style>
 
                         <div class="d-flex flex-column text-center mt-5 mb-4">
                             <span class="small" style="color: #868B94">Temperature</span>
